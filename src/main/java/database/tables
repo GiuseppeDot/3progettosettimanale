@@ -1,0 +1,33 @@
+-- CREATE TABLE Catalogo(
+-- 	id serial PRIMARY KEY,
+-- 	titolo VARCHAR(50) NOT NULL,
+-- 	anno_pubblicazione DATE NOT NULL,
+-- 	numero_pagine INTEGER NOT NULL
+-- );
+
+
+-- CREATE TABLE Utente(
+-- 	nome VARCHAR(50) NOT NULL,
+-- 	cognome VARCHAR(50) NOT NULL,
+-- 	data_di_nascita DATE NOT NULL,
+-- 	numero_di_tessera INT UNIQUE
+-- );
+
+
+-- CREATE TABLE Rivista(
+-- 	periodo VARCHAR(50) NOT NULL
+-- );
+
+
+-- CREATE TABLE Libri(
+-- 	autore VARCHAR(50) NOT NULL,
+-- 	genere VARCHAR(50) NOT NULL
+-- );
+
+
+-- CREATE TABLE Prestito(
+-- 	elemento_prestato VARCHAR(50) NOT NULL,
+-- 	data_inizio DATE NOT NULL,
+-- 	data_restituzione_prevista DATE NOT NULL,
+-- 	data_restituzione DATE NOT NULL
+-- );
